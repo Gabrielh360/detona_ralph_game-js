@@ -13,7 +13,7 @@
 O objetivo do jogo é testar seus reflexos, vocẽ tem que acertar o acertar o Ralph, você tem um tempo pra fazer o máximo de pontos que conseguir, toda vez que o contador chegar zero, você perde uma vida, quando suas vidas chegarem a zero será game over, mais não se perocupe, vocẽ pode jogar novamente quantas vezes quiser.
 
 ## Teste o Game 
-[Clique Aqui Pra Jogar!](https://)
+[Clique Aqui Pra Jogar!](https://gabrielh360.github.io/detona_ralph_game-js/)
 
 ## Pré-Visualizção do Game
 <img height="300px" src="https://github.com/Gabrielh360/eletric_car-app/assets/91648449/ca59c61e-7c76-4fcf-a891-1729de291ab7">
