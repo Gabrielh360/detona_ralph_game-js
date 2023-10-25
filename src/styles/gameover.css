@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/wall.png");
+}
+
+.container_game-over {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 36%;
+    padding-top: 2%;
+    height: 100vh;
+}
+
+.game-over {
+    width: 40%;
+}
+
+.start-btn {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    width: 40%;
+    margin: 5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0 0.2em gray;
+    cursor: pointer;
+    left: 100%;
+  }
+
+  .start-btn::before {
+    box-shadow: none;
+    position: relative;
+    top: 0.2em;
+  }
+  
+.score {
+    color: #ff0000;
+}
+
+
+#final-score {
+  color: #ffffff;
+}
+
+.score, p, span {
+    background-color: black;
+    padding-right: -1000px;
+    width: 23%;
+    margin-top: 10px;
+    margin-left: 5px;
+}

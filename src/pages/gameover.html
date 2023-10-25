@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="icon" href="src/images/favicon.png">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/gameover.css">
+    <link rel="window" href="../../index.html">
+</head>
+<body>
+    <div class="container">
+        <div class="container_game-over">
+            <img class="game-over" src="../images/game-over.png" />
+            <button class="start-btn" onclick="playAgain()">JOGAR NOVAMENTE</button>
+            <p class="score">Your Score: <span id="final-score">0</span></p>
+        </div>
+    </div>
+
+    <script>
+        function playAgain() {
+            // Redirect to the main game page (index.html)
+            window.history.back();
+            }
+
+             // Retrieve the final score from localStorage
+            const finalScore = localStorage.getItem("finalScore");
+            if (finalScore !== null) {
+                document.getElementById("final-score").textContent = finalScore;
+            }
+            
+    </script>
+</body>
+</html>
